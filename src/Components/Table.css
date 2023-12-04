@@ -1,0 +1,53 @@
+.Table{
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    height: 50vh;
+}
+.display{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.display span {
+    font-size: 12px;
+    color: rgb(128, 121, 121);
+}
+.operators{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+}
+.digits{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60%;
+}
+button{
+    border: none;
+    appearance: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.operators button{
+    flex: 1 1 0;
+    background-color: brown;
+    color: aqua;
+}
+
+.digits button{
+    flex: 1 1 33.33%;
+    background-color: black;
+    color: white;
+    
+}
